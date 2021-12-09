@@ -1,22 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap");
 
 * {
-  padding: 1%;
-  margin: 1%;
+  padding: 0%;
+  margin: 0%;
  
 }
 
 :root {
-  --primary-dark: #fcf6f5ff;
-  --primary-yellow:#990011ff ;
+  --primary-dark: rgba(220, 238, 238, 0.479);
+  --primary-yellow:# ;
   
 
 }
 
 body {
-  background-color: var(--primary-yellow);
-  padding: auto;
-  margin: auto;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(120deg,red,yellow);
+  background-size: cover;
+  height:100vh;
 }
 h1 {
   text-align: center;
@@ -27,7 +28,7 @@ h1 {
 
 .container {
   width: 50vh;
-  height:50vh ;
+  height:75vh ;
     display: flex;
     flex-direction: column;
     justify-content:bottom;
