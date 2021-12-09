@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@500&display=swap");
+
+* {
+  padding: 1%;
+  margin: 1%;
+ 
+}
+
+:root {
+  --primary-dark: #fcf6f5ff;
+  --primary-yellow:#990011ff ;
+  
+
+}
+
+body {
+  background-color: var(--primary-yellow);
+  padding: auto;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-family: "Halant", serif;
+  color: #e94b3cff;
+  font-weight: bolder;
+}
+
+.container {
+  width: 50vh;
+  height:50vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content:bottom;
+    align-items: center;
+    font-family: "Lora", serif;
+    background-color:var(--primary-dark);
+    color: #272727;
+    padding: 1rem 4rem 1rem 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin:auto;
+
+
+
+#output-box {
+  text-align: center;
+  margin: auto;
+  font-size: larger;
+  margin-bottom: 6rem;
+  margin-top: 3rem;
+  padding: 5rem;
+}
+
+#check-number-button{
+  margin-bottom: 100px;
+}
